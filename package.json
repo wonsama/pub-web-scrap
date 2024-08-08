@@ -1,0 +1,24 @@
+{
+  "name": "pub-web-scrap",
+  "version": "1.0.0",
+  "description": "특정 사이트 등에서 데이터를 손쉽게 추출하기 위해 작성",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.12",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^23.0.1",
+    "puppeteer-core": "^23.0.1"
+  },
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "oy-shoplist": "node ./src/oy/shoplist.js"
+  },
+  "keywords": [
+    "scrapping",
+    "web"
+  ],
+  "author": "wonsama",
+  "license": "MIT"
+}

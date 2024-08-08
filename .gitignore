@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+## added by @wonsama
+
+package-lock.json
+.DS_Store
+data/*
+!data/*.sample
+output/*
+!output/.gitkeep
